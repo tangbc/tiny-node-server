@@ -1,0 +1,31 @@
+{
+  "name": "@tangbc/tiny-node-server",
+  "version": "1.0.8",
+  "description": "A tiny, simple and easyuse static server by nodejs.",
+  "main": "index.js",
+  "bin": {
+    "tinyserver": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangbc/tiny-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "tinyNodeServer": {
+    "port": "8088",
+    "root": "./",
+    "logLevel": 1
+  },
+  "author": "tangbc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangbc/tiny-node-server/issues"
+  },
+  "homepage": "https://github.com/tangbc/tiny-node-server#readme"
+}
